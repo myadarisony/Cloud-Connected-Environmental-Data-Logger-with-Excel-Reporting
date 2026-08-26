@@ -390,47 +390,6 @@ The project uses a character buffer for ESP-01 responses and checks for response
 
 ---
 
-## 📂 Project Folder Structure
-
-```text
-SMART-TEMPERATURE-SMOKE-MONITORING/
-│
-├── source_code/
-│   ├── adc.c
-│   ├── adc.h
-│   ├── clock.h
-│   ├── cust_lcd.c
-│   ├── cust_lcd.h
-│   ├── delay.c
-│   ├── delay.h
-│   ├── eeprom.c
-│   ├── eeprom.h
-│   ├── Esp011.c
-│   ├── esp011.h
-│   ├── i2c.c
-│   ├── i2c.h
-│   ├── interrupt.c
-│   ├── interrupt.h
-│   ├── keypad.c
-│   ├── keypad_defines.h
-│   ├── lcd.c
-│   ├── lcd_defines.h
-│   ├── lcd_display.c
-│   ├── lcd_display.h
-│   ├── main.c
-│   ├── menu.h
-│   ├── mq2.h
-│   ├── rtc.c
-│   ├── rtc.h
-│   ├── smoke.c
-│   ├── uart.c
-│   ├── uart.h
-│   └── Uart_main.c
-│
-└── README.md
-```
-
----
 
 ## 🔌 Main Interfaces Used
 
@@ -466,6 +425,9 @@ EEPROM ◄───────── I2C ─────────► LPC21xx
 
 Switch ────────── EINT0 ────────► Menu
 ```
+## Project Output
+<img width="1600" height="1200" alt="esp01 connection" src="https://github.com/user-attachments/assets/89c5cc54-b70f-4721-b975-9496e52d91e1" />
+<img width="1600" height="1200" alt="keypad_interface" src="https://github.com/user-attachments/assets/0ca02e0e-8daa-4da9-8e94-612d59279b0d" />
 
 ---
 
