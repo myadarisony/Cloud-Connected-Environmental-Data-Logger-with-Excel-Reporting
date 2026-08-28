@@ -38,7 +38,7 @@ The measured temperature and smoke status are displayed locally on the LCD. The 
 | 4×4 Matrix Keypad | User menu and configuration |
 | I2C EEPROM | Stores configuration/data |
 | ESP-01 Wi-Fi Module | Provides Wi-Fi/cloud connectivity |
-| Temperature Buzzer | Indicates high-temperature condition |
+| Temperature LED | Indicates high-temperature condition |
 | Gas Buzzer | Indicates smoke/gas detection |
 | Switch | Activates the configuration menu through external interrupt |
 
