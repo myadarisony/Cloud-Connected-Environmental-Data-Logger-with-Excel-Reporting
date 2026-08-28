@@ -1,4 +1,4 @@
-# 🌡️ Smart Temperature & Smoke Monitoring System
+# 🌡️ Cloud Connected Environmental Data Logger with Excel Reporting
 
 ## 📌 Project Overview
 
@@ -373,24 +373,13 @@ The project uses a character buffer for ESP-01 responses and checks for response
 
 ---
 
-## 📊 Data Flow
+## Project Output
 
-```text
-LM35 ──► ADC ──► LPC21xx ──► LCD
-                  │
-                  ├──► Temperature Setpoint
-                  │          │
-                  │          └──► Temperature Buzzer
-                  │
-MQ2 ─────────────► GPIO ──► Smoke Status
-                  │
-                  └──► UART ──► ESP-01 ──► ThingSpeak
+```
+                  <img width="1000" height="800" alt="esp01 connection" src="https://github.com/user-attachments/assets/e0e89428-db9a-4545-b55b-1b775b040ef1" />
+<img width="1000" height="800" alt="keypad_interface" src="https://github.com/user-attachments/assets/a0e02063-36df-4688-879b-f9a51d402663" />
 
-RTC ─────────────► LPC21xx ───────────────► LCD
 
-EEPROM ◄───────── I2C ─────────► LPC21xx
-
-Switch ────────── EINT0 ────────► Menu
 ```
 
 ---
