@@ -354,8 +354,6 @@ The project uses a character buffer for ESP-01 responses and checks for response
 
 ---
 
----
-
 ## 🔌 Main Interfaces Used
 
 | Interface | Purpose |
