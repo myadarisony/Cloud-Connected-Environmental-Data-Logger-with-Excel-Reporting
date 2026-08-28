@@ -62,8 +62,6 @@ The measured temperature and smoke status are displayed locally on the LCD. The 
 
 ---
 
----
-
 ## 🔄 Working Principle
 
 1. The LPC21xx initializes the LCD, UART, ADC, RTC, I2C, keypad, interrupt, and MQ2 interface.
