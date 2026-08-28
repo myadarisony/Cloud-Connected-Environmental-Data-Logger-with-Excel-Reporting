@@ -375,11 +375,14 @@ The project uses a character buffer for ESP-01 responses and checks for response
 
 ## Project Output
 
- <img width="1400" height="1000" alt="esp01 connection" src="https://github.com/user-attachments/assets/9b8ffaca-27ca-4a5b-8f7e-c64979467077" />
+ <img width="1200" height="800" alt="esp01 connection" src="https://github.com/user-attachments/assets/9b8ffaca-27ca-4a5b-8f7e-c64979467077" />
                 
                   
-<img width="1400" height="1000" alt="keypad_interface" src="https://github.com/user-attachments/assets/a0e02063-36df-4688-879b-f9a51d402663" />
+<img width="1200" height="800" alt="keypad_interface" src="https://github.com/user-attachments/assets/a0e02063-36df-4688-879b-f9a51d402663" />
 
+---
+## ThingsPeak Output
+<img width="1536" height="1024" alt="ChatGPT Image Aug 28, 2026, 07_47_00 PM" src="https://github.com/user-attachments/assets/b0a3109c-3231-407b-82ca-aef936875dd2" />
 
 
 ---
