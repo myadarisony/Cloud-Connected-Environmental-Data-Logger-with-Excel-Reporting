@@ -62,40 +62,6 @@ The measured temperature and smoke status are displayed locally on the LCD. The 
 
 ---
 
-## 🏗️ System Architecture
-
-```text
-                  ┌─────────────────┐
-                  │   LM35 Sensor   │
-                  └────────┬────────┘
-                           │ Analog
-                           ▼
-                  ┌─────────────────┐
-                  │       ADC       │
-                  └────────┬────────┘
-                           │
-                           ▼
-       ┌────────────────────────────────────┐
-       │          LPC21xx / ARM7            │
-       │          Main Controller           │
-       └──────┬──────┬──────┬──────┬────────┘
-              │      │      │      │
-              ▼      ▼      ▼      ▼
-            LCD     RTC   Keypad  UART
-                                  │
-                                  ▼
-                              ESP-01
-                                  │
-                                  ▼
-                             ThingSpeak
-
-       MQ2 ─────────► GPIO ─────────► Gas Buzzer
-                                  
-       Temperature ───────────────► Temp Buzzer
-
-       EEPROM ◄────────────── I2C ─────────────► LPC21xx
-```
-
 ---
 
 ## 🔄 Working Principle
@@ -389,46 +355,6 @@ Response Checking
 The project uses a character buffer for ESP-01 responses and checks for responses such as `OK`, `CONNECT`, `ALREADY CONNECTED`, and `WIFI CONNECTED`.
 
 ---
-
-## 📂 Project Folder Structure
-
-```text
-SMART-TEMPERATURE-SMOKE-MONITORING/
-│
-├── source_code/
-│   ├── adc.c
-│   ├── adc.h
-│   ├── clock.h
-│   ├── cust_lcd.c
-│   ├── cust_lcd.h
-│   ├── delay.c
-│   ├── delay.h
-│   ├── eeprom.c
-│   ├── eeprom.h
-│   ├── Esp011.c
-│   ├── esp011.h
-│   ├── i2c.c
-│   ├── i2c.h
-│   ├── interrupt.c
-│   ├── interrupt.h
-│   ├── keypad.c
-│   ├── keypad_defines.h
-│   ├── lcd.c
-│   ├── lcd_defines.h
-│   ├── lcd_display.c
-│   ├── lcd_display.h
-│   ├── main.c
-│   ├── menu.h
-│   ├── mq2.h
-│   ├── rtc.c
-│   ├── rtc.h
-│   ├── smoke.c
-│   ├── uart.c
-│   ├── uart.h
-│   └── Uart_main.c
-│
-└── README.md
-```
 
 ---
 
