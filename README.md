@@ -375,10 +375,10 @@ The project uses a character buffer for ESP-01 responses and checks for response
 
 ## Project Output
 
- <img width="2000" height="1600" alt="esp01 connection" src="https://github.com/user-attachments/assets/9b8ffaca-27ca-4a5b-8f7e-c64979467077" />
+ <img width="1400" height="1000" alt="esp01 connection" src="https://github.com/user-attachments/assets/9b8ffaca-27ca-4a5b-8f7e-c64979467077" />
                 
                   
-<img width="2000" height="1600" alt="keypad_interface" src="https://github.com/user-attachments/assets/a0e02063-36df-4688-879b-f9a51d402663" />
+<img width="1400" height="1000" alt="keypad_interface" src="https://github.com/user-attachments/assets/a0e02063-36df-4688-879b-f9a51d402663" />
 
 
 
